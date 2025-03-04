@@ -14,9 +14,7 @@
 <div class="container">
   <h2>선택해 주세요.</h2>
   <p>
-  	<a href="/mvcTest5/boardList">게시판 연습</a>
-  </p>
-  <p>
+  	<a href="/mvcTest5/boardList" class="btn btn-success mt-4 me-4">게시판 연습</a>
   	<a href="/mvcTest5/mapping">매핑(확장자패턴) 연습</a>
   </p>
 </div>
