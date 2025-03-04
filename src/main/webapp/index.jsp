@@ -3,7 +3,8 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>.jsp</title>
+  <title>index.jsp</title>
+  <jsp:include page="/include/bs5.jsp">
   <script>
     location.href = "/mvcTest5/boardList";
   </script>
@@ -11,7 +12,13 @@
 <body>
 <p><br/></p>
 <div class="container">
-  
+  <h2>선택해 주세요.</h2>
+  <p>
+  	<a href="/mvcTest5/boardList">게시판 연습</a>
+  </p>
+  <p>
+  	<a href="/mvcTest5/mapping">매핑(확장자패턴) 연습</a>
+  </p>
 </div>
 </body>
 </html>
